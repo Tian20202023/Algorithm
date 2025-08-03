@@ -17,11 +17,6 @@ public class Jolly {
         }
         Collections.sort(sub);
 
-        for (int i = 0; i < sub.size(); i++) {
-            System.out.print(sub.get(i) + " ");
-        }
-        System.out.println();
-
         for (int i = 0; i < n - 1; i++) {
             if (sub.get(i) != i + 1) {
                 System.out.println("Not jolly");
